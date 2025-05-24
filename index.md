@@ -55,7 +55,7 @@
     }
 
     .nav-logo img {
-      height: 60px;
+      height: 70px;
     }
 
     .nav-menu {
@@ -123,7 +123,7 @@
     }
 
     header h1 {
-      font-size: 2.5rem;
+      font-size: 2.8rem;
       margin-bottom: 10px;
     }
 
@@ -177,6 +177,9 @@
 
     .form {
       margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .form input, .form select, .form textarea {
@@ -235,7 +238,7 @@
         <img src="TestDriveConnectLogo.png" alt="TestDrive Connect Logo">
       </a>
       <ul class="nav-menu" id="navMenu">
-        <li><a href="#how-it-works" class="active">How It Works</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
         <li><a href="#for-dealerships">For Dealerships</a></li>
         <li><a href="#for-drivers">For Drivers</a></li>
         <li><a href="#contact">Contact</a></li>
